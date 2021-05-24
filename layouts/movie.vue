@@ -1,12 +1,14 @@
 <template>
   <div>
-    <h2>movie layout</h2>
+    <app-header/>
     <nuxt/>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'OneMovie'
+}
 </script>
 
 <style scoped>
